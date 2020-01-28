@@ -1,0 +1,29 @@
+.pnfound h3{
+    color: #fa0606;
+    font-size: 60px;
+    font-weight: 700;
+}
+.pnfound h2{
+    color: #5d5d5c;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.pnfound a{
+    color: #ededda;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 40px;
+}
+.pnfound{
+    overflow: hidden;
+}
+@media only screen and (max-width: 575px){
+    .pnfound h3{
+        font-size: 40px;
+    }
+    .pnfound h2{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,644 @@
+@import url(global.css);
+
+/* ==================== Menu Section ==================== */
+
+.main-menu .navbar{
+    background: #232322;
+    z-index: 9999;
+}
+.main-menu .navbar-brand img{
+    width: 75%;
+}
+.main-menu ul > li{
+    padding: 5px;
+}
+.main-menu ul > li a{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.main-menu ul li:hover a{
+    color: #ff0000 !important;
+}
+.main-menu ul li.active a{
+    color: #ff0000 !important;
+}
+
+/* ==================== Hero Section ==================== */
+
+.hero-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/header-bg.jpg) no-repeat top center fixed;
+    background-size: cover;
+    color: #fff;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.hero-section .hero-content h1{
+    font-size: 63px;
+    font-weight: 700;
+}
+.hero-section .hero-content h1 span{
+    font-size: 63px;
+    font-weight: 700;
+    color: #ff0000;
+}
+.hero-section .hero-content p{
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 40px;
+    font-weight: 500;
+    margin: 20px 0 40px;
+}
+/* ==================== About Section ==================== */
+.about .about-img{
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+}
+.about .about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.about .about-img:hover img{
+    transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+}
+.about .about-img .overlay{
+    position: absolute;
+    background: #ff00007c;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.about .about-img:hover .overlay{
+    background: #ff000063;
+}
+.about .about-img .overlay h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+.about .about-img .overlay .about-img-btns{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+}
+.about .about-img .overlay ul{
+    margin: auto;
+}
+.about .about-img .overlay ul li{
+    padding: 0 6px 5px;
+}
+.about .about-img .overlay ul li a i{
+    color: #fff;
+    padding: 10px;
+    background: #ff0000;
+    border-radius: 50%;
+    transition: .3s ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.about .about-img .overlay ul li:first-child a i{
+    padding: 10px 13px;
+}
+.about .about-img .overlay ul li a:hover i{
+    color: #ff0000;
+    background: #fff;
+}
+.about .about-text h3{
+    font-size: 24px;
+    color: #2d2d2d;
+    font-weight: 600;
+    margin: 25px 0 30px;
+}
+.about .about-text p{
+    color: #2d2d2d;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+.about .about-text a{
+    margin: 5px 0;
+    padding: 11px 30px;
+}
+.about .about-text a > i{
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+/* ==================== Know Us Section ==================== */
+
+.know-us{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/about-video.jpg) no-repeat top center fixed;
+    background-size: cover;
+}
+.know-us h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.know-us .icon i{
+    color: #fff;
+    font-size: 30px;
+    padding: 22px 25px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: .5s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+.know-us .icon i:hover{
+    transform: scale(1.1);
+    color: #000;
+    background: #fff;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+/* ==================== Service Section ==================== */
+.service.spadding{
+    padding: 90px 0 60px;
+}
+.service .service-card{
+    margin-bottom: 30px;
+}
+.service .service-card .content i{
+    color: #ff0000;
+    font-size: 35px;
+}
+.service .service-card .content h4{
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 400;
+    color: #333;
+}
+.service .service-card .content p{
+    line-height: 25px;
+    color: #333;
+}
+
+/* ==================== Skill Section ==================== */
+
+.skill{
+    background: #F2F2F2;
+}
+.skill .skill-text h3{
+    color: #2d2d2d;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.skill .skill-text p{
+    color: #2d2d2d;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.skill .skill-top h3{
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+}
+.skill .skill-top p{
+    color: #2d2d2d;
+    line-height: 25px;
+}
+.skill .skill-bar{
+    margin-bottom: 25px;
+}
+.skill .skill-bar p{
+    margin: 5px 0;
+}
+.skill .skill-bar .bar-outer{
+    background: #000;
+    width: 100%;
+    height: 15px;
+    padding: 4.5px 6px;
+    position: relative;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.skill .skill-bar .bar-outer .bar-inner{
+    width: 65%;
+    height: 100%;
+    background: #ff0000;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.skill .skill-bar:nth-child(2) .bar-outer .bar-inner{
+    width: 80%;
+}
+.skill .skill-bar:nth-child(3) .bar-outer .bar-inner{
+    width: 70%;
+}
+.skill .skill-bar:nth-child(4) .bar-outer .bar-inner{
+    width: 90%;
+}
+.skill .skill-bar .bar-outer .bar-percent{
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+    top: 0;
+    right: 10px;
+}
+
+/* ==================== Client Work Section ==================== */
+
+.client-work{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/client-meet-bg.jpg) no-repeat top center fixed;
+    background-size: cover;
+}
+.client-work .cwork-card{
+    color: #fff;
+}
+.client-work .cwork-card i{
+    font-size: 25px;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+    padding: 10px 0;
+    margin-bottom: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.client-work .cwork-card h3{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+/* ==================== Portfolio Section ==================== */
+
+.portfolio .buttons{
+    margin-bottom: 50px;
+}
+.portfolio .buttons button{
+    background: #Fff;
+    border: 0;
+    text-transform: uppercase;
+    color: #0f0f00;
+    font-weight: 500;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.portfolio .buttons button:focus{
+    outline: 0 !important;
+}
+.portfolio .buttons button:hover{
+    color: #ff0000;
+}
+.portfolio .buttons button.mixitup-control-active{
+    color: #ff0000;
+}
+.portfolio .portfolio-item{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.portfolio .portfolio-item .portfolio-img{
+    height: 240px;
+    position: relative;
+    box-shadow: 0 0 15px #d9d9d9;
+}
+.portfolio .portfolio-item .portfolio-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+.portfolio .portfolio-item:hover .portfolio-img img{
+    width: 100%;
+}
+.portfolio .portfolio-item .portfolio-img .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    background: #ff000075;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+.portfolio .portfolio-item:hover .portfolio-img .overlay{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.portfolio .portfolio-item .portfolio-img .overlay a i{
+    color: #Fff;
+    font-size: 30px;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.portfolio .portfolio-item .portfolio-img .overlay a:hover i{
+    color: #fdcdcd;
+}
+
+/* ==================== Team Section ==================== */
+.team{
+    background: #F2F2F2;
+}
+.team .team-card .team-img{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px #c9c9c9;
+}
+.team .team-card .team-img::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -400px;
+    left: 0;
+    background: #ff000063;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+.team .team-card:hover .team-img::before{
+    bottom: 0;
+}
+.team .team-card .team-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.team .team-card .team-img .overlay{
+    position: absolute;
+    bottom: -65px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0 5px;
+    background: #ff0000;
+    color: #fff;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+.team .team-card:hover .team-img .overlay{
+    bottom: 0;
+}
+.team .team-img .overlay h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #fff;
+}
+.team .team-img .overlay ul{
+    margin: auto;
+}
+.team .team-img .overlay ul li a i{
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.team .team-img .overlay ul li:first-child a i{
+    padding: 10px 13px;
+}
+.team .team-img .overlay ul li a:hover i{
+    color: #ff0000;
+    background: #fff;
+}
+
+/* ==================== Testimonial Section ==================== */
+.testimonial{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/testimonial-bg.jpg) no-repeat top center fixed;
+    background-size: cover;
+}
+.testimonial .testimonial-card .testimonial-img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.testimonial .testimonial-card .testimonial-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.testimonial .testimonial-card .testimonial-text h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 15px 0;
+}
+.testimonial .testimonial-card .testimonial-text p{
+    color: #dadada;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 12%;
+}
+
+/* ==================== Blog Section ==================== */
+.blog .blog-card .card{
+    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    box-shadow: 0 0 15px #d9d9d9;
+    overflow: hidden;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+.blog .blog-card .card:hover{
+    box-shadow: 0 0 20px 10px #d9d9d9;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+.blog .blog-card .card .card-body{
+    border-top: 6px solid #ff0000;
+}
+.blog .blog-card .card h3.card-title{
+    color: #696666 !important;
+    font-weight: 500;
+    font-size: 26px;
+}
+.blog .blog-card .card h6.date{
+    color: #191212 !important;
+}
+.blog .blog-card .card p.card-text{
+    color: #191212 !important;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.blog .blog-card .card .card-btns a.btn{
+    color: #747474 !important;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.blog .blog-card .card .card-btns a.btn:hover{
+    color: #ff0000 !important;
+}
+.blog .blog-card .card .card-btns a.btn i{
+    margin-right: 3px;
+}
+
+/* ==================== Contact Section ==================== */
+
+.contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/contact-bg.jpg) no-repeat top center fixed;
+    background-size: cover;
+}
+.contact .section-top h2{
+    color: #fff;
+}
+.contact form{
+    width: 80%;
+    margin: 0 auto;
+}
+form .name,
+form .email,
+form .message{
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+form .name::placeholder,
+form .email::placeholder,
+form .message::placeholder{
+   color: #c2c1c1;
+   opacity: 1;
+}
+form .message{
+    height: 220px;
+    resize: none;
+    padding: 25px 15px;
+}
+form .submit-btn .btn{
+    font-size: 18px;
+}
+
+/* ==================== Footer Section ==================== */
+
+footer .copyright-bar{
+    background: #1A1A1A !important;
+    padding: 20px 0;
+    color: #fff;
+}
+footer .copyright-bar .social li a{
+    padding: 10px;
+}
+footer .copyright-bar .social li a i{
+    color: #fff;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+footer .copyright-bar .social li a:hover i{
+    color: #ff0000;
+}
+footer .copyright-bar .copyright-text p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+footer .copyright-bar .copyright-text p span{
+    color: #ff0000;
+    font-size: 14px;
+}

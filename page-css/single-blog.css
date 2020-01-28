@@ -1,0 +1,216 @@
+@import url(blog.css);
+
+.post .big-thumbnail{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+.post .big-thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+.post .big-thumbnail:hover img{
+    filter: brightness(0.7) saturate(1.5);
+    -webkit-filter: brightness(0.7) saturate(1.5);
+}
+.post .title h2{
+    font-size: 30px;
+    color: #252525;
+    font-weight: 600;
+}
+.post .title h5{
+    font-weight: 500;
+    font-size: 14px;
+    color: #545252;
+    margin-bottom: 20px;
+}
+.post .post-main{
+    margin-bottom: 50px;
+}
+.post .post-main p{
+    color: #3b3a3a;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+/* =========== Comment Section =========== */
+
+.comments{
+    width: 85%;
+}
+.comments h3.cmnt{
+    color: #252525;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 0;
+    border-bottom: 1px solid #666;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.comments .comment{
+    border-bottom: 1px solid #7777;
+    padding: 30px 0;
+}
+.comments .comment:last-child{
+    border-bottom: 0;
+}
+.comment .comment-img,
+.reply .reply-img{
+   width: 15%;
+   display: block;
+}
+.comment .comment-img .cmnt-img,
+.reply .reply-img .rply-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 20px 2px #ddd;
+}
+.comment .comment-img img,
+.reply .reply-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.comment .comment-img:hover img,
+.reply .reply-img:hover img{
+    filter: brightness(.92);
+    -webkit-filter: brightness(.92);
+}
+.comment .comment-text,
+.reply .reply-text{
+    display: block;
+    width: 85%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.comment .comment-text h5,
+.reply .reply-text h5{
+    color: #545252;
+    font-weight: 500;
+    font-size: 14px;
+}
+.comment .comment-text p,
+.reply .reply-text p{
+    color: #545252;
+    margin-bottom: 5px;
+}
+.comment .comment-text .reply-btn,
+.reply .reply-text .reply-btn{
+    color: #252525;
+    font-weight: 500;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+.comment .comment-text .reply-btn:hover,
+.reply .reply-text .reply-btn:hover{
+    color: #ff0000;
+    text-decoration: none;
+}
+.comment .reply{
+    padding-left: 90px;
+}
+
+/* ============ Write Comment ============= */
+
+.write-comment form{
+    width: 80%;
+}
+.write-comment form .full-name,
+.write-comment form .email-address,
+.write-comment form .comment-box{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #7777;
+}
+.write-comment form .comment-box{
+    resize: none;
+    height: 110px;
+}
+.write-comment form .secondary-button{
+    border: 0;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1199px){
+    .comments{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .post .big-thumbnail{
+        height: 40vw;
+        min-height: 280px;
+    }
+    .comments{
+        width: 100%;
+    }
+    .comment .comment-img,
+    .reply .reply-img{
+        width: 10%;
+    }
+    .comment .comment-img .cmnt-img,
+    .reply .reply-img .rply-img{
+        width: 50px;
+        height: 50px;
+    }
+    .comment .comment-text,
+    .reply .reply-text{
+        width: 90%;
+        padding-left: 20px;
+    }
+    .comment .reply{
+        padding-left: 60px;
+    }
+    .write-comment form{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 575px){
+    .comment .comment-img,
+    .reply .reply-img{
+        float: none !important;
+        margin-bottom: 10px;
+    }
+    .comment .comment-text,
+    .reply .reply-text{
+        float: none !important;
+        padding-left: 0;
+        width: 100%;
+    }
+    .comment .reply{
+        padding-left: 30px;
+    }
+    .comments .col-12{
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 480px){
+    .post .big-thumbnail{
+        height: 50vw;
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+    .post .title h2{
+        font-size: 23px;
+    }
+}
