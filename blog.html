@@ -1,288 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Blog - Nandine</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="page-css/blog.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="page-css/blog.css" />
+  </head>
+  <body>
     <!-- ================== Start Header Area ================== -->
     <header>
-        <!-- ================== Start Menu Area ================== -->
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container">
-                  <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="Nandine Logo">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Skill</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                      </li>
-                    </ul>
-                </div>
-                </div>
-            </nav>
-        </div>
-        <!-- ================== End Menu Area ================== -->
-        <!-- ================== Start Page Hero Area ================== -->
-        <div class="page-hero">
-            <h5>Home / <span>Blog</span></h5>
-        </div>
-        <!-- ================== End Page Hero Area ================== -->
+      <!-- ================== Start Menu Area ================== -->
+      <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand" href="/">
+              <img src="img/logo.png" alt="Nandine Logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/404.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/404.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/404.html">Skill</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/404.html">Team</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="/blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/404.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- ================== End Menu Area ================== -->
+      <!-- ================== Start Page Hero Area ================== -->
+      <div class="page-hero">
+        <h5>Home / <span>Blog</span></h5>
+      </div>
+      <!-- ================== End Page Hero Area ================== -->
     </header>
     <!-- ================== End Header Area ================== -->
     <!-- ================== Start Main Area ================== -->
     <main>
-        <!-- ================== Start Blog Area ================== -->
-        <section class="blog spadding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-top text-center">
-                            <h2 class="text-uppercase">Latest <span>Blog</span></h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="d-none d-lg-block col-4">
-                        <div class="side-bar">
-                            <div class="search">
-                                <form class="d-flex">
-                                    <input type="text">
-                                    <button type="submit" value="ABC"><i class="fas fa-search"></i></button>
-                                </form>
-                            </div>
-                            <div class="categories">
-                                <h3>Categories</h3>
-                                <ul>
-                                    <li class="active"><a href="#">Web Design</a></li>
-                                    <li><a href="#">Web Development</a></li>
-                                    <li><a href="#">Graphic Design</a></li>
-                                    <li><a href="#">App Development</a></li>
-                                </ul>
-                            </div>
-                            <div class="latest">
-                                <h3>Latest Post</h3>
-                                <div class="latest-post d-flex">
-                                    <div class="latest-img">
-                                        <div class="thumbnail">
-                                            <img src="img/blog/blog1.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="latest-text">
-                                        <h5>01/05/2017</h5>
-                                        <p>This is Photoshop's version  of Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                                <div class="latest-post d-flex">
-                                    <div class="latest-img">
-                                        <div class="thumbnail">
-                                            <img src="img/blog/blog2.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="latest-text">
-                                        <h5>01/05/2017</h5>
-                                        <p>This is Photoshop's version  of Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                                <div class="latest-post d-flex">
-                                    <div class="latest-img">
-                                        <div class="thumbnail">
-                                            <img src="img/blog/blog3.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="latest-text">
-                                        <h5>01/05/2017</h5>
-                                        <p>This is Photoshop's version  of Lorem Ipsum</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start Blog Column -->
-                    <div class=" col-12 col-lg-8">
-                        <div class="row blog-cards justify-content-center">
-                            <div class="col-12 col-md-6 blog-card">
-                                <div class="card">
-                                    <img src="img/blog/blog1.jpg" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Lorem Ipsum Simply</h3>
-                                        <h6 class="date">11 dec 2016</h6>
-                                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                                        <div class="card-btns">
-                                            <a href="#" class="secondary-button float-left">Read More</a>
-                                            <a href="#" class="btn float-right"><i class="fas fa-comments"> </i> 0 Comment</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 blog-card">
-                                <div class="card">
-                                    <img src="img/blog/blog2.jpg" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Lorem Ipsum Simply</h3>
-                                        <h6 class="date">11 dec 2016</h6>
-                                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                                        <div class="card-btns">
-                                            <a href="#" class="secondary-button float-left">Read More</a>
-                                            <a href="#" class="btn float-right"><i class="fas fa-comments"> </i> 0 Comment</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 blog-card">
-                                <div class="card">
-                                    <img src="img/blog/blog3.jpg" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Lorem Ipsum Simply</h3>
-                                        <h6 class="date">11 dec 2016</h6>
-                                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                                        <div class="card-btns">
-                                            <a href="#" class="secondary-button float-left">Read More</a>
-                                            <a href="#" class="btn float-right"><i class="fas fa-comments"> </i> 0 Comment</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 blog-card">
-                                <div class="card">
-                                    <img src="img/blog/blog4.jpg" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Lorem Ipsum Simply</h3>
-                                        <h6 class="date">11 dec 2016</h6>
-                                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                                        <div class="card-btns">
-                                            <a href="#" class="secondary-button float-left">Read More</a>
-                                            <a href="#" class="btn float-right"><i class="fas fa-comments"> </i> 0 Comment</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="blog-pagination">
-                                    <ul class="nav">
-                                        <li class="disable"><a href="#"><i class='fas fa-angle-double-left'></i></a></li>
-                                        <li class="active"><a href="#">1</a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">4</a></li>
-                                        <li><a href="#"><i class='fas fa-angle-double-right'></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Blog Column -->
-                </div>
+      <!-- ================== Start Blog Area ================== -->
+      <section class="blog spadding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-top text-center">
+                <h2 class="text-uppercase">Latest <span>Blog</span></h2>
+              </div>
             </div>
-        </section>
-        <!-- ================== End Blog Area ================== -->
+          </div>
+          <div class="row">
+            <div class="d-none d-lg-block col-4">
+              <div class="side-bar">
+                <div class="search">
+                  <form class="d-flex">
+                    <input type="text" />
+                    <button type="submit" value="ABC">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="categories">
+                  <h3>Categories</h3>
+                  <ul>
+                    <li class="active"><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">App Development</a></li>
+                  </ul>
+                </div>
+                <div class="latest">
+                  <h3>Latest Post</h3>
+                  <div class="latest-post d-flex">
+                    <div class="latest-img">
+                      <div class="thumbnail">
+                        <img src="img/blog/blog1.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="latest-text">
+                      <h5>01/05/2017</h5>
+                      <p>This is Photoshop's version of Lorem Ipsum</p>
+                    </div>
+                  </div>
+                  <div class="latest-post d-flex">
+                    <div class="latest-img">
+                      <div class="thumbnail">
+                        <img src="img/blog/blog2.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="latest-text">
+                      <h5>01/05/2017</h5>
+                      <p>This is Photoshop's version of Lorem Ipsum</p>
+                    </div>
+                  </div>
+                  <div class="latest-post d-flex">
+                    <div class="latest-img">
+                      <div class="thumbnail">
+                        <img src="img/blog/blog3.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="latest-text">
+                      <h5>01/05/2017</h5>
+                      <p>This is Photoshop's version of Lorem Ipsum</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Start Blog Column -->
+            <div class="col-12 col-lg-8">
+              <div class="row blog-cards justify-content-center">
+                <div class="col-12 col-md-6 blog-card">
+                  <div class="card">
+                    <img src="img/blog/blog1.jpg" alt="" class="card-img-top" />
+                    <div class="card-body">
+                      <h3 class="card-title">Lorem Ipsum Simply</h3>
+                      <h6 class="date">11 dec 2016</h6>
+                      <p class="card-text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard.
+                      </p>
+                      <div class="card-btns">
+                        <a
+                          href="/single-blog.html"
+                          class="secondary-button float-left"
+                          >Read More</a
+                        >
+                        <a href="#" class="btn float-right"
+                          ><i class="fas fa-comments"> </i> 0 Comment</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 blog-card">
+                  <div class="card">
+                    <img src="img/blog/blog2.jpg" alt="" class="card-img-top" />
+                    <div class="card-body">
+                      <h3 class="card-title">Lorem Ipsum Simply</h3>
+                      <h6 class="date">11 dec 2016</h6>
+                      <p class="card-text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard.
+                      </p>
+                      <div class="card-btns">
+                        <a
+                          href="/single-blog.html"
+                          class="secondary-button float-left"
+                          >Read More</a
+                        >
+                        <a href="#" class="btn float-right"
+                          ><i class="fas fa-comments"> </i> 0 Comment</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 blog-card">
+                  <div class="card">
+                    <img src="img/blog/blog3.jpg" alt="" class="card-img-top" />
+                    <div class="card-body">
+                      <h3 class="card-title">Lorem Ipsum Simply</h3>
+                      <h6 class="date">11 dec 2016</h6>
+                      <p class="card-text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard.
+                      </p>
+                      <div class="card-btns">
+                        <a
+                          href="/single-blog.html"
+                          class="secondary-button float-left"
+                          >Read More</a
+                        >
+                        <a href="#" class="btn float-right"
+                          ><i class="fas fa-comments"> </i> 0 Comment</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 blog-card">
+                  <div class="card">
+                    <img src="img/blog/blog4.jpg" alt="" class="card-img-top" />
+                    <div class="card-body">
+                      <h3 class="card-title">Lorem Ipsum Simply</h3>
+                      <h6 class="date">11 dec 2016</h6>
+                      <p class="card-text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard.
+                      </p>
+                      <div class="card-btns">
+                        <a
+                          href="/single-blog.html"
+                          class="secondary-button float-left"
+                          >Read More</a
+                        >
+                        <a href="#" class="btn float-right"
+                          ><i class="fas fa-comments"> </i> 0 Comment</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="blog-pagination">
+                    <ul class="nav">
+                      <li class="disable">
+                        <a href="#"><i class="fas fa-angle-double-left"></i></a>
+                      </li>
+                      <li class="active"><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-angle-double-right"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Blog Column -->
+          </div>
+        </div>
+      </section>
+      <!-- ================== End Blog Area ================== -->
     </main>
     <!-- ================== End Main Area ================== -->
     <!-- ================== Start Footer Area ================== -->
     <footer>
-        <!-- ================== Start Contact Area ================== -->
-        <div class="contact spadding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-top text-center">
-                            <h2 class="text-uppercase">Get in <span>Touch</span></h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <form>
-                            <div class="row">
-                                <div class="col-12 col-lg-6">
-                                  <input type="text" placeholder="Your Name" class="name" required>
-                                </div>
-                                <div class="col-12 col-lg-6">
-                                  <input type="email" placeholder="Your Email" class="email" required>
-                                </div>
-                                <div class="col-12">
-                                  <textarea placeholder="Your Message" class="message" required></textarea>
-                                </div>
-                                <div class="col-12 submit-btn">
-                                  <input class="btn primary-button" type="submit" value="Send Message">
-                                </div>
-                              </div>
-                        </form>
-                    </div>
-                </div>
+      <!-- ================== Start Contact Area ================== -->
+      <div class="contact spadding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-top text-center">
+                <h2 class="text-uppercase">Get in <span>Touch</span></h2>
+              </div>
             </div>
-        </div>
-        <!-- ================== End Contact Area ================== -->
-        <!-- ================== End Start Area ================== -->
-        <div class="copyright-bar clearfix">
-            <div class="container">
-                <ul class="nav social float-left">
-                    <li><a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a></li>
-                    <li><a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    </li>
-                    <li><a href="#">
-                        <i class="fas fa-rss"></i>
-                    </a></li>
-                    <li><a href="#">
-                        <i class="fab fa-google-plus-g"></i>
-                    </a></li>
-                    <li><a href="#">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a></li>
-                    <li><a href="#">
-                        <i class="fab fa-pinterest"></i>
-                    </a></li>
-                </ul>
-                <div class="copyright-text float-right">
-                    <p>&copy; By Parves All Right Received <span>Nandine</span></p>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <form>
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      class="name"
+                      required
+                    />
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <input
+                      type="email"
+                      placeholder="Your Email"
+                      class="email"
+                      required
+                    />
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      placeholder="Your Message"
+                      class="message"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="col-12 submit-btn">
+                    <input
+                      class="btn primary-button"
+                      type="submit"
+                      value="Send Message"
+                    />
+                  </div>
                 </div>
+              </form>
             </div>
+          </div>
         </div>
-        <!-- ================== End Copyright Area ================== -->
+      </div>
+      <!-- ================== End Contact Area ================== -->
+      <!-- ================== End Start Area ================== -->
+      <div class="copyright-bar clearfix">
+        <div class="container">
+          <ul class="nav social float-left">
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-rss"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-pinterest"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="copyright-text float-right">
+            <p>&copy; By Parves All Right Received <span>Nandine</span></p>
+          </div>
+        </div>
+      </div>
+      <!-- ================== End Copyright Area ================== -->
     </footer>
     <!-- ================== End Footer Area ================== -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
